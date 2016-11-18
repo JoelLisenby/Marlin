@@ -300,7 +300,7 @@
   //#define  DEFAULT_Ki 2.25
   //#define  DEFAULT_Kd 440
 
-  // TEVO Tarantula Custom PID Settings - Hotend
+  // TEVO Tarantula i3 Custom PID Settings - Hotend Autotune gcode command: M303 E0 S200 C8
   #define  DEFAULT_Kp 17.84
   #define  DEFAULT_Ki 1.00
   #define  DEFAULT_Kd 79.78
@@ -347,7 +347,7 @@
   //#define  DEFAULT_bedKi 1.41
   //#define  DEFAULT_bedKd 1675.16
 
-  // TEVO Tarantula Custom PID Settings - Heatbed with borosilicate glass Kp: 293.46 Ki: 57.41 Kd: 375.05PID
+  // TEVO Tarantula i3 Custom PID Settings - Heatbed Autotune gcode command: M303 E-1 C8 S90
   #define  DEFAULT_bedKp 193.46
   #define  DEFAULT_bedKi  57.41
   #define  DEFAULT_bedKd 375.05
